@@ -1,0 +1,689 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+	width: 60%;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+.rs-slider > li img{margin:0 auto} 
+/* ===== Initializr Styles ==================================================
+   
+   ========================================================================== */
+.rs-slider {
+
+    padding: 0;
+}
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Theme
+   =================== */
+
+.header-container {
+	width:100%;
+	background-color:#b200b9;
+}
+.header-container h1{
+	color:#FFF;
+	width:80.0rem;
+	font-size:2.1rem;
+	font-weight:600;
+	padding:0.8rem 0;
+	text-align:center;
+	margin-right:auto;
+	margin-left:auto;
+}
+img.logo {
+	position:relative;
+	width:10.0rem;
+	height:4.5rem;
+	top:0.0rem;
+	left:0;
+	float:left;
+}
+img.logo2 {
+	position:relative;
+	width:10.0rem;
+	height:4.5rem;
+	top:0.0rem;
+	left:0;
+	float:right;
+}
+
+.footer-container,
+.main aside {}
+
+.header-container,
+.footer-container,
+.main aside {
+	
+}
+
+.title {
+    color: white;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: #e44d26;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0 50px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    padding: 0px 5% 0;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author (s) custom styles
+   ========================================================================== */
+article p{ padding-left: 20px; padding-right: 20px;} aside p {padding: none;}
+
+.main aside { padding-left: 6px; padding-right: 6px; position: relative;} 
+
+body {
+	background-color:#ff0000;
+	font: 12px/18px Tahoma, Verdana, sans-serif;
+}
+.girl{
+    background-repeat: no-repeat;
+    margin: 20px 10px 9px 0;
+    width: auto;
+	text-align: center;}
+
+.girl img {	border: 10px solid #ffffff; box-shadow: 0 0 7px #B7B4B4;}
+	
+
+
+h1 { 
+	color: #920000;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2 {
+	color: #920000;
+    font-size: 18px;
+    font-weight: bold;
+	line-height: 27px;
+}
+
+
+h2 span {
+	color: #000000;
+    font-family: trebuchet ms,tahoma;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 27px;
+}
+
+h3 {	margin-top: 0px;
+	color: #f6ae12;
+	font-family: trebuchet ms;
+	font-size: 16px;
+	line-height: 23px;
+	padding: 10px 0 10px 0;
+        text-align: center;
+}
+h4 {
+	color: #75bf04;
+	font-family: trebuchet ms,tahoma;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 33px;
+	text-align: center
+}
+
+.step1 p {
+	color: #898989;
+	font-size: 1.4em;
+	line-height: 25px;
+}
+#forma-email > div {
+    text-align: center;
+}
+
+.email-submit.button.step_button {
+    height: 55px;
+    line-height: 55px;
+    max-width: 250px;
+    width: 100%;
+    margin: 0 auto
+}
+input {
+    border: 1px solid #bbb;
+    border-radius: 2px;
+    font-size: 16px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    padding: 5px;
+    width: 100%;
+    max-width: 280px
+}
+
+.done_marker {
+	list-style: none;
+    padding: 0
+}
+.done_marker li {
+	background: url("../images/check.png") no-repeat scroll left center transparent;
+	color: #686868;
+	font-family: trebuchet ms,tahoma;
+	font-size: 15px;
+	line-height: 17px;
+	padding: 6px 5px 6px 30px;
+}
+select.select_age {
+	color: #625F5F;
+	font-size: 1.2em;
+	margin: 25px 0;
+	padding: 7px;
+	position: relative;
+	width: 500px;
+}
+.step_button, .agree {
+	border: 0 none currentcolor;
+	background: linear-gradient(to bottom, #54cd0d 0%, #51c60c 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background-color: #51c60c;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Tahoma, Arial, sans, serif;
+	font-size: 18px;
+	height: 50px;
+	line-height: 50px;
+	width:100%;
+	outline: 0 none;
+	text-align: center;
+	text-decoration: none;
+	margin: 10px 10px 0 0;
+	border-radius: 8px;
+}
+
+.step_button_2 {
+	margin: 10px 0 0;
+}
+.show_end .agree, .step_button:hover {
+	background: linear-gradient(to bottom, #3cb601 0%, #38ad00 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background-color: #38ad00;
+}
+/* Step 2 */
+.step2,.step3,.step4,.run_loading_2,.run_loading_3,.run_loading_4,.run_loading_5,.thank_for_close,.li_run_loading_1,.li_run_loading_2,.li_run_loading_3,.li_run_loading_4,.show_end {
+	display:none;
+}
+
+.decimal{
+    list-style: none outside none;
+    padding: 0
+	
+}
+.decimal li {
+color: #686868;
+background-repeat: no-repeat;
+font-family: trebuchet ms,tahoma;
+font-size: 14px;
+line-height: 24px;
+padding: 12px 20px 6px 1px;
+}
+
+.numbers{ background-color: #878787;
+color: #fff;
+    border-radius: 21px;
+    font-size: 20px;
+    padding: 5px 13px;
+	margin-right: 10px;
+}
+
+.decimal li.one {background-position: 0 12px;}
+.decimal li.two {background-position: 0 -37px;}
+.decimal li.three {background-position: 0 -87px;}
+.decimal li.four {background-position:1px -375px;}
+.step4 .agree_label {
+	color: #686868;
+	font-size: 11px;
+	line-height: 14px;
+	padding: 5px 0 14px;
+	text-align: center;
+}
+.agree {background-position: 0 -140px;}
+.agree:hover, .agree:active {background-position: 0 -210px;}
+.show_end {
+	display: none;
+}
+
+strong,b {
+	font-weight: bold;
+}
+
+.btn_terms {
+	background: linear-gradient(to bottom, #FFDD76 0%, #FFC241 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background-color: #8C8B8B;
+    border: 0 none;
+    border-radius: 8px 8px 8px 8px;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: trebuchet ms,tahoma;
+    font-size: 36px;
+    font-weight: bold;
+    height: 70px;
+    line-height: 70px;
+    margin: 0 22px 0 auto;
+    outline: 0 none;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px #FBEEC7;
+    width: 420px;
+}
+
+.btn_terms:hover{ 
+	background: linear-gradient(to bottom, #FFDD76 0%, #83d901 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background-color: #83d901;
+
+}
+
+
+/* hover email*/
+#previewback{z-index:2000 !important;width:100%;height:100%;background-color:#000;overflow:hidden;margin:0;padding:0;opacity:.65;
+filter:alpha(opacity=65);-moz-opacity:.65;position:fixed;left:0;top:0}
+
+/* hover glückwünsche*/
+#articleviewer{z-index:2200;position:fixed;left:0;top:0;width:100%;height:100%;text-align:center}
+
+/* hover glückwünsche div*/
+#viewerpane{margin:20px auto;overflow:auto;width:100%; max-width: 480px; height:280px;background-color:#fff;padding:10px;
+-moz-border-radius:6px;
+-webkit-border-radius:6px;border:1px solid #536376;-webkit-box-shadow:rgba(0,0,0,.6) 0 2px 12px;
+-moz-box-shadow:rgba(0,0,0,.6) 0 2px 12px}
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px aka tablet and desctop) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+	
+	h2{}
+	img {width: 40%;}
+	
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+	
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+	h3{ padding-top: 15px;}
+	aside p { padding-bottom: 5px;}
+	img {width: 90%;}
+
+	.step_button, .agree {
+	border: 0 none currentcolor;
+	background: linear-gradient(to bottom, #54cd0d 0%, #51c60c 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background-color: #51c60c;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Tahoma, Arial, sans, serif;
+	font-size: 36px;
+	height: 70px;
+	line-height: 70px;
+	outline: 0 none;
+	text-align: center;
+	text-decoration: none;
+	margin: 10px 10px 0 0;
+	border-radius: 8px;
+
+}
+
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 49%;
+    }
+
+    .main aside {
+        float: right;
+        width: 45%;
+    }
+	aside p{font-size: 17px; line-height: 24px; color: #686868}
+	h2{font-size: 20px; line-height: 2px; margin-top:0px}
+	h2 span {font-size: 18px; line-height: 23px; padding:10px;}
+	h1 {font-size: 22px; line-height: 28px;}
+	
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+	p{ color: #000;}
+	h2{ font-size: 30px;}
+	h2 span { font-size: 30px; line-height: 35px; }
+	img {width: 85%;}
+	h3 { padding-top: 30px;}
+	h1 { 
+	color: #920000;
+    font-size: 38px;
+    font-weight: normal;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+	
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+body {
+	background-color:#ffffff;
+ font: 12px/18px Tahoma, Verdana, sans-serif;
+}
+
+h1,h2,h3,h4{color: #333333;}
+
+h1 {color: #333333;}
+h2 { color: #333333;}
+h2 span { color: #333333;}
+
+h3{ color: #333333;}
+h3 span{ color: #333333;}
+
+aside p{color: #333333;}
+
+.done_marker li{ color: #333333;}
+.decimal li{ color: #333333;}
+.step4 .agree_label{color: #333333;}
